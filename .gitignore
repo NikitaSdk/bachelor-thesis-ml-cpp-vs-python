@@ -1,0 +1,26 @@
+# Build output
+build/
+cmake-build-*/
+x64/
+Debug/
+Release/
+*.exe
+*.obj
+*.o
+*.pdb
+*.ilk
+
+# Models and large data
+*.onnx
+*.tflite
+*.pth
+data/mnist*.csv
+
+# Python
+__pycache__/
+.venv/
+
+# IDE
+.idea/
+.vs/
+.vscode/
